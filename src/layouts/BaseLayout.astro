@@ -29,48 +29,13 @@ const { navLinks } = pageSize;
       >Skip navigation</a
     >
     <header class="container mx-auto flex items-center justify-between mb-16">
-      <div class="p-4">
-        <!-- Logo -->
-      </div>
-
-      <label
-        aria-label="Hamburger Menu"
-        id="nav-toggle"
-        class="btn btn-circle swap swap-rotate fixed z-[999] top-4 right-4 hidden"
-        aria-controls="primary-nav"
-        aria-expanded="false"
+      <div
+        class="flex rounded-full bg-white py-2 px-3 mr-2 w-full justify-evenly mt-5 text-green-700"
       >
-        <input type="checkbox" />
-        <!-- hamburger icon -->
-        <svg
-          class="swap-off fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 512 512"
-        >
-          <path
-            d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
-          ></path>
-        </svg>
-        <!-- close icon -->
-        <svg
-          class="swap-on fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 512 512"
-        >
-          <polygon
-            points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"
-          ></polygon>
-        </svg>
-      </label>
-      <div class="rounded-full bg-white py-2 px-3 mr-2">
-        <button> Blog</button>
-        <button> Home</button>
-        <button> About</button>
-        <button> Login</button>
+        <a href="/blog"> Blog</a>
+        <a href="/"> Home</a>
+        <a href="/"> About</a>
+        <a href="/"> Login</a>
       </div>
     </header>
 
